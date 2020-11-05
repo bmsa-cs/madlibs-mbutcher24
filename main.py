@@ -20,7 +20,12 @@ if story%2==0:
   print("\nYou want to know why I want to quit my job at {}? \nWell, I got {} in an elevator the other day. \nI was just bringing the boss some {} and suddenly, the lights went out. \n{} was standing next to me. \nThat idiot started {} the ever-present-not-moving door. \nThe entire thing kept shaking. \nThe boss's {} flew out of my hands and {} had to change their shirt. \nThe {} eventually got us out, but oh my, I never want to do that again! \nYou can see why I’m quitting... \tRight?".format(company, pt_verb, drink, person_one, ing_verb, drink, person_two, job))
 
 else:
-  print("pfft {} {}".format(34455, 444))
-  print(f'pifffieoijfe {story}')
+  season = input("\nEnter a season: ")
+  body_part = input("Enter a part of your body: ")
+  friend = input("Enter the name of a friend: ")
+  food = input("Enter a food: ")
+  animal = input("Enter an animal: ")
+  liquid = input("Enter a liquid: ")
+  print(f"The beach in the {season} is so fun! \nMy {body_part} sunk into the sand, just beneath the waves. \n{friend} sat at the shore, tossing {food} at the pesky seagulls. \nA young girl crossed the waves on a {animal} float. \nSuddenly, {liquid} pelted my back! \nI turned to see {friend} behind me, squirt gun in hand. \nI smiled, sprinting back across the beach. {friend} is so going down!")
 
-print("Thank you for playing!" + "\nTry again to get a different story!")
+print("\nThank you for playing!" + "\nTry again to get a different story!")
